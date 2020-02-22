@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import axios from 'axios';
 import Player from './Payer';
+import Chart from './Chart';
 
 class Players extends React.Component {
     constructor() {
@@ -21,6 +22,7 @@ class Players extends React.Component {
     render() {
         return(
             <Wrapper>
+                <Chart data={this.state.players} />
                 <h2>Players</h2>
                 {this.state.players.map((player, index) => <Player key={player.id} {...player} />)}
             </Wrapper>
