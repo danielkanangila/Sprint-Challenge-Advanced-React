@@ -46,7 +46,7 @@ const Card = styled.div`
     .card__player-emoji {
         width: 75px;
         height: 75px;
-        margin: 0 auto;
+        margin: 10px auto 0;
         background-color: #ccc;
         border-radius: 50%;
         font-size: 50px;
@@ -65,6 +65,7 @@ const Card = styled.div`
     }
     .card__text {
         display: flex;
+        margin-bottom: 10px;
     }
     .searches {
         display: block;
