@@ -35,9 +35,9 @@ const Card = styled.div`
         padding: 16px;
         box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.07);
         border-radius: 5px;
-        margin: 0 15px 15px 0;
+        margin: 0 1.5% 15px 0;
         @media (min-width: 850px) {
-            width: 30%;
+            width: 31.5%;
         }
     }
     .card__name {

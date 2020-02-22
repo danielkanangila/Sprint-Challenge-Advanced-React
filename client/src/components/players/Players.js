@@ -34,6 +34,7 @@ const Wrapper = styled.div`
     display: flex;
     flex-wrap: wrap;
     padding-top: 120px;
+    justify-content: space-between;
     @media (min-width: 600px) {
         width: 75%;
     }
