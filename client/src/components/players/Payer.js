@@ -31,7 +31,7 @@ const Card = styled.div`
     &.card {
         display: flex;
         flex-direction: column;
-        width: 46%;
+        width: 100%;
         padding: 16px;
         box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.07);
         border-radius: 5px;

@@ -21,6 +21,7 @@ class Players extends React.Component {
     render() {
         return(
             <Wrapper>
+                <h2>Players</h2>
                 {this.state.players.map(player => <Player key={player.id} {...player} />)}
             </Wrapper>
         )
@@ -28,10 +29,20 @@ class Players extends React.Component {
 }
 
 const Wrapper = styled.div`
-    width: 70%;
-    margin: 50px auto;
+    width: 90%;
+    margin: 0px auto 50px;
     display: flex;
     flex-wrap: wrap;
+    padding-top: 120px;
+    @media (min-width: 600px) {
+        width: 75%;
+    }
+    h2 {
+        margin: 0 0 20px;
+        text-transform: uppercase;
+        text-align: center;
+        width: 100%;
+    }
 `
 
 export default Players;
