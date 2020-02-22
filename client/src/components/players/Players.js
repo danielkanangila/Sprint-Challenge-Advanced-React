@@ -22,7 +22,7 @@ class Players extends React.Component {
         return(
             <Wrapper>
                 <h2>Players</h2>
-                {this.state.players.map(player => <Player key={player.id} {...player} />)}
+                {this.state.players.map((player, index) => <Player key={player.id} {...player} />)}
             </Wrapper>
         )
     }

@@ -5,7 +5,7 @@ class Player extends React.Component {
     render() {
         const { name, country, searches } = this.props;
         return(
-            <Card className="card">
+            <Card data-testid="resolved-payer-card" className="card">
                 <span role="img" aria-label="img" className="card__player-emoji">
                     &#9977;
                 </span>
